@@ -31,8 +31,10 @@ public class WhenSearchingForDrupalUsingGoogleTest
 	  public void openBrowser() throws MalformedURLException {
 		    baseUrl = "http://www.google.com";
 		    nodeURL = "http://192.168.1.12:5555/wd/hub";
-		    DesiredCapabilities caps = DesiredCapabilities.firefox();
-		    caps.setBrowserName("firefox");
+/*		    DesiredCapabilities caps = DesiredCapabilities.firefox();
+		    caps.setBrowserName("firefox");	*/	    
+		    DesiredCapabilities caps = DesiredCapabilities.chrome();
+		    caps.setBrowserName("chrome");
 		    caps.setPlatform(Platform.WINDOWS);
 		    driver = new RemoteWebDriver(new URL(nodeURL), caps);
 		    driver.manage().window().maximize();

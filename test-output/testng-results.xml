@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11552" started-at="2016-05-28T02:46:00Z" finished-at="2016-05-28T02:46:12Z">
+  <suite name="Parallel Tests" duration-ms="7372" started-at="2016-05-28T04:02:28Z" finished-at="2016-05-28T04:02:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11552" started-at="2016-05-28T02:46:00Z" finished-at="2016-05-28T02:46:12Z">
+    <test name="Windows+IE9 Test" duration-ms="7372" started-at="2016-05-28T04:02:28Z" finished-at="2016-05-28T04:02:36Z">
       <class name="com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest@29ee9faa]" name="openBrowser" is-config="true" duration-ms="9072" started-at="2016-05-27T19:46:00Z" finished-at="2016-05-27T19:46:09Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest@4678c730]" name="openBrowser" is-config="true" duration-ms="4724" started-at="2016-05-27T21:02:28Z" finished-at="2016-05-27T21:02:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="pageTitleAfterSearchShouldBeginWithDrupal()[pri:0, instance:com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest@29ee9faa]" name="pageTitleAfterSearchShouldBeginWithDrupal" duration-ms="1790" started-at="2016-05-27T19:46:09Z" finished-at="2016-05-27T19:46:11Z">
+        <test-method status="PASS" signature="pageTitleAfterSearchShouldBeginWithDrupal()[pri:0, instance:com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest@4678c730]" name="pageTitleAfterSearchShouldBeginWithDrupal" duration-ms="1354" started-at="2016-05-27T21:02:33Z" finished-at="2016-05-27T21:02:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitleAfterSearchShouldBeginWithDrupal -->
-        <test-method status="PASS" signature="saveScreenshotAndCloseBrowser()[pri:0, instance:com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest@29ee9faa]" name="saveScreenshotAndCloseBrowser" is-config="true" duration-ms="671" started-at="2016-05-27T19:46:11Z" finished-at="2016-05-27T19:46:12Z">
+        <test-method status="PASS" signature="saveScreenshotAndCloseBrowser()[pri:0, instance:com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest@4678c730]" name="saveScreenshotAndCloseBrowser" is-config="true" duration-ms="1280" started-at="2016-05-27T21:02:35Z" finished-at="2016-05-27T21:02:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveScreenshotAndCloseBrowser -->
       </class> <!-- com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Windows+IE9 Test -->
+  </suite> <!-- Parallel Tests -->
 </testng-results>
