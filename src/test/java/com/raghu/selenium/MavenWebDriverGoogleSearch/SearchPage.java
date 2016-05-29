@@ -19,8 +19,11 @@ public class SearchPage {
 	@FindBy(how = How.NAME, using = "q")
 	private WebElement searchField;
 	
+
+	
 	public SearchPage(WebDriver driver) {
 		this.driver = driver;
+		
 	}
 	
 	public void enterSearchKeyWord(String keyword){
