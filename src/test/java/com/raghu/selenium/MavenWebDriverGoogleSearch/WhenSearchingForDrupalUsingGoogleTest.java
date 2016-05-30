@@ -45,9 +45,9 @@ public class WhenSearchingForDrupalUsingGoogleTest extends TestSuiteBase
 //	  }
 	  
 	  @AfterClass
-	public void saveScreenshotAndCloseBrowser() throws IOException {
+/*	public void saveScreenshotAndCloseBrowser() throws IOException {
 	    //driver.quit();
-	  }
+	  }*/
 	  
 	@Test
 	  public void pageTitleAfterSearchShouldBeginWithDrupal() throws IOException, InterruptedException {
