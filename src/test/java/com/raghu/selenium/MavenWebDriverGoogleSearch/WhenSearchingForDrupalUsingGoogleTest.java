@@ -29,11 +29,36 @@ public class WhenSearchingForDrupalUsingGoogleTest extends TestSuiteBase {
 	//// driver.get(baseUrl);
 	// }
 
+<<<<<<< HEAD
 	@AfterClass
 	public void saveScreenshotAndCloseBrowser() throws IOException {
 		// driver.quit();
 	}
 
+=======
+	  
+	  
+//	  @BeforeClass(alwaysRun=true)
+//	  public void openBrowser() throws MalformedURLException {
+//		    baseUrl = "http://www.google.com";
+////		   // nodeURL = "http://192.168.1.12:5555/wd/hub";
+/////*		    DesiredCapabilities caps = DesiredCapabilities.firefox();
+////		    caps.setBrowserName("firefox");	*/	    
+////		    DesiredCapabilities caps = DesiredCapabilities.chrome();
+////		    caps.setBrowserName("chrome");
+////		    caps.setPlatform(Platform.WINDOWS);
+////		    driver = new RemoteWebDriver(new URL(nodeURL), caps);
+////		    driver.manage().window().maximize();
+////		    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+////		    driver.get(baseUrl);
+//	  }
+	  
+	  @AfterClass
+/*	public void saveScreenshotAndCloseBrowser() throws IOException {
+	    //driver.quit();
+	  }*/
+	  
+>>>>>>> a8f23e20717cfaafe5e644be240d4bd6ba09c977
 	@Test
 	public void pageTitleAfterSearchShouldBeginWithDrupal()
 			throws IOException, InterruptedException {
