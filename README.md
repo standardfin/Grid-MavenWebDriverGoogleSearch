@@ -25,3 +25,7 @@ java -jar selenium-server-standalone-2.53.0.jar -role hub
 java -jar selenium-server-standalone-2.53.0.jar –role webdriver –hub http://localhost:4444/grid/register -browser "browserName=firefox,version=38.0, platform=WIN10" –port 5556
 
 java -jar selenium-server-standalone-2.53.0.jar –role webdriver –hub http://localhost:4444/grid/register -browser "browserName=firefox,version=38.0, platform=WIN10" –port 5557
+
+java -jar selenium-server-standalone-2.53.0.jar –role webdriver –hub http://localhost:4444/grid/register -browser "browserName=chrome,version=50.0.2661, platform=WIN10" –port 5555 -DWebDriver.chrome.driver=C:\Users\Raghu\workspace\ChromeDriver\
+
+java -jar selenium-server-standalone-2.53.0.jar –role webdriver –hub http://localhost:4444/grid/register -browser "browserName=chrome,version=50.0.2661, platform=WIN10" –port 5556 -DWebDriver.chrome.driver=C:\Users\Raghu\workspace\ChromeDriver\

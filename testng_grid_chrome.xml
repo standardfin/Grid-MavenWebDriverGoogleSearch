@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
+<tests>
+ 
+	 <test name="Windows+Chrome Test">
+		 <parameters>
+			 <parameter name="platform"	 value="Any" />
+			 <parameter name="browser"	 value="chrome" />
+			 <parameter name="version" value="50.0.2661" />
+			 <parameter name="url" value="http://www.google.com"/>
+		 </parameters>
+	    <classes>
+	      <class name="com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest"/>
+	    </classes>
+	 </test>
+ 		 <test name="Windows+Chrome Test2">
+		 <parameters>
+			 <parameter name="platform"	 value="WIN10" />
+			 <parameter name="browser"	 value="chrome" />
+			 <parameter name="version" value="50.0.2661" />
+			 <parameter name="url" value="http://www.google.com"/>
+		 </parameters>
+	    <classes>
+	      <class name="com.raghu.selenium.MavenWebDriverGoogleSearch.WhenSearchingForDrupalUsingGoogleTest"/>
+	    </classes>
+	 </test>
+</tests>
+</suite>
